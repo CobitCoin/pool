@@ -1,0 +1,24 @@
+{
+    "name": "forknote-pool",
+    "version": "0.0.1",
+    "license": "GPL-2.0",
+    "authors": "Matthew Little",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/forknote/forknote-pool"
+    },
+    "dependencies": {
+        "async": "1",
+        "base58-native": "*",
+        "bignum": "^0.12.5",
+        "cli-color": "*",
+        "cryptonote-util-bbscoin": "^1.0.3",
+        "dateformat": "*",
+        "multi-hashing-bbscoin": "^1.0.0",
+        "node": "^9.11.2",
+        "redis": "*"
+    },
+    "engines": {
+        "node": ">=0.10"
+    }
+}
